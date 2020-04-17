@@ -43,8 +43,8 @@
   "scripts": {
     "test": "jest",
     "test:cov": "jest --collectCoverage",
-    "start": "webpack-dev-server --config webpack.dev.js --open --hot",
-    "build": "webpack --config webpack.prod.js",
+    "start": "webpack-dev-server --env.NODE_ENV=development --config webpack.dev.js --open --hot",
+    "build": "webpack --env.NODE_ENV=production --config webpack.prod.js",
     "check-types": "tsc --noEmit",
     "format": "prettier --write \"src/**/*.+(ts|tsx|js|jsx|css)\"",
     "check-format": "prettier --check \"src/**/*.+(ts|tsx|js|jsx|css)\""
