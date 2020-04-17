@@ -1,13 +1,50 @@
+@font-face {
+  font-family: "Kremlin";
+  src: local("Kremlin"), url(./fonts/kremlin.ttf) format("truetype");
+}
+
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
-    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
-    sans-serif;
+  font-family: "Kremlin", -apple-system, BlinkMacSystemFont, "Segoe UI",
+    "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans",
+    "Helvetica Neue", sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
-    monospace;
+  font-family: "Kremlin", source-code-pro, Menlo, Monaco, Consolas,
+    "Courier New", monospace;
 }
+
+button {
+  font-family: "Kremlin";
+  background-color: #282c30;
+  color: white;
+  border: double;
+  padding: 16px;
+  font-size: calc(8px + 2vmin);
+  border-radius: 2px;
+  transition: color 0.8s ease;
+}
+
+button:disabled {
+  color: red;
+}
+
+button:active {
+  background-color: white;
+  color: #282c30;
+  transition: background-color 0.5s ease;
+  transition: color 0.2s ease;
+}
+
+/* button:hover {
+  background-color: green;
+  color: white;
+}
+
+button:hover button:disabled {
+  background-color: red;
+  color: white;
+} */
