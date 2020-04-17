@@ -1,6 +1,6 @@
-# React + TypeScript + Webpack + Babel boilerplate
+# You Are Slav
 
-> Minimal boilerplate to create React apps compiled with Babel, leveraging TypeScript type checking.
+> Quick quiz to check if you are actually slav.
 
 ## Available Scripts
 
