@@ -40,13 +40,3 @@ button:active {
   transition: background-color 0.5s ease;
   transition: color 0.2s ease;
 }
-
-/* button:hover {
-  background-color: green;
-  color: white;
-}
-
-button:hover button:disabled {
-  background-color: red;
-  color: white;
-} */
