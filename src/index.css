@@ -1,11 +1,11 @@
 @font-face {
-  font-family: "Kremlin";
-  src: local("Kremlin"), url(./fonts/kremlin.ttf) format("truetype");
+  font-family: "Red October";
+  src: local("Red October"), url(./fonts/red-october.ttf) format("truetype");
 }
 
 body {
   margin: 0;
-  font-family: "Kremlin", -apple-system, BlinkMacSystemFont, "Segoe UI",
+  font-family: "Red October", -apple-system, BlinkMacSystemFont, "Segoe UI",
     "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans",
     "Helvetica Neue", sans-serif;
   -webkit-font-smoothing: antialiased;
@@ -13,12 +13,12 @@ body {
 }
 
 code {
-  font-family: "Kremlin", source-code-pro, Menlo, Monaco, Consolas,
+  font-family: "Red October", source-code-pro, Menlo, Monaco, Consolas,
     "Courier New", monospace;
 }
 
 button {
-  font-family: "Kremlin";
+  font-family: "Red October";
   background-color: #282c30;
   color: white;
   border: double;
