@@ -22,7 +22,7 @@
 
 .App-header {
   background-color: #282c30;
-  min-height: 15vh;
+  height: 20vh;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -33,14 +33,13 @@
 
 .App-body {
   background-color: #282c30;
-  height: 100%;
+  height: calc(100% - 20vh);
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: flex-start;
   font-size: calc(6px + 2vmin);
   color: white;
-  padding: 32px;
 }
 
 .App-link {
