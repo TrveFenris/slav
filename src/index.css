@@ -26,10 +26,12 @@ button {
   font-size: calc(8px + 2vmin);
   border-radius: 2px;
   transition: color 0.8s ease;
+  cursor: pointer;
 }
 
 button:disabled {
   color: red;
+  cursor: default;
 }
 
 button:active {
