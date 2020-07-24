@@ -42,7 +42,7 @@ module.exports = {
     new CleanWebpackPlugin(),
     new HtmlWebpackPlugin({
       template: path.join(__dirname, "public/index.html"),
-      favicon: path.join(__dirname, "public/favicon.png"),
+      favicon: path.join(__dirname, "public/favicon.ico"),
     }),
   ],
   externals: {
