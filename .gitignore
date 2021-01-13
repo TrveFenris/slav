@@ -24,3 +24,11 @@ yarn-error.log*
 
 # IDE
 /.vscode/
+
+# Yarn
+.yarn/*
+!.yarn/releases
+!.yarn/plugins
+!.yarn/sdks
+!.yarn/versions
+.pnp.*
