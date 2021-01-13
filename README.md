@@ -1,6 +1,6 @@
 # You Are Slav
 
-> Quick quiz to check if you are actually slav.
+> Quick quiz to check if you are actually slav. Hosted at https://trvefenris.github.io/slav/.
 
 ## Available Scripts
 
