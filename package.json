@@ -5,8 +5,8 @@
   "license": "MIT",
   "main": "index.tsx",
   "dependencies": {
-    "react": "17.0.2",
-    "react-dom": "17.0.2"
+    "react": "18.2.0",
+    "react-dom": "18.2.0"
   },
   "devDependencies": {
     "@babel/core": "7.29.0",
@@ -15,8 +15,8 @@
     "@babel/preset-env": "7.29.2",
     "@babel/preset-react": "7.28.5",
     "@babel/preset-typescript": "7.28.5",
-    "@types/react": "17.0.91",
-    "@types/react-dom": "17.0.26",
+    "@types/react": "19.2.14",
+    "@types/react-dom": "19.2.3",
     "babel-loader": "10.1.1",
     "clean-webpack-plugin": "4.0.0",
     "css-loader": "7.1.4",
