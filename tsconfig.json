@@ -1,13 +1,13 @@
 {
   "compilerOptions": {
     "outDir": "./dist/",
-    "baseUrl": "./src",
+    "rootDir": "./src",
     "strictNullChecks": true,
     "esModuleInterop": true,
     "sourceMap": true,
     "noImplicitAny": true,
     "module": "commonjs",
-    "moduleResolution": "node",
+    "moduleResolution": "bundler",
     "target": "es6",
     "allowJs": true,
     "jsx": "react"
