@@ -10,7 +10,7 @@
     "moduleResolution": "bundler",
     "target": "es6",
     "allowJs": true,
-    "jsx": "react-jsx"
+    "jsx": "react"
   },
   "include": ["src/**/*", "overrides.d.ts"],
   "exclude": ["node_modules", "**/*.spec.ts"]
