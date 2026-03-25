@@ -10,14 +10,14 @@ const App: React.FC = () => {
   const isSlav: boolean = answerOne === "yes" && answerTwo === "yes";
 
   const handleQuestionOne = (
-    event: React.MouseEvent<HTMLInputElement, MouseEvent>
+    event: React.MouseEvent<HTMLInputElement, MouseEvent>,
   ) => {
     const { value } = event.currentTarget;
     if (answerOne != value) setAnswerOne(value as Answer);
   };
 
   const handleQuestionTwo = (
-    event: React.MouseEvent<HTMLInputElement, MouseEvent>
+    event: React.MouseEvent<HTMLInputElement, MouseEvent>,
   ) => {
     const { value } = event.currentTarget;
     if (answerTwo != value) setAnswerTwo(value as Answer);
