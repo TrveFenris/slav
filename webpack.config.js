@@ -54,16 +54,10 @@ module.exports = (env) => {
   const devConfig = {
     mode: "development",
     devtool: "inline-source-map",
-    module: {
-      rules: [
-        {
-          enforce: "pre",
-          test: /\.js$/i,
-          loader: "source-map-loader",
-          exclude: /node_modules/,
-        },
-      ],
-    },
+      devtool: [
+        { type: "javascript", use: "source-map" },
+        { type: "css", use: "inline-source-map" },
+    ],
     devServer: {
       contentBase: path.join(__dirname, "public"),
       compress: true,
